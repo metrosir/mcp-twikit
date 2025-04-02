@@ -10,7 +10,7 @@ COPY . /app
 
 # Install the project's dependencies
 RUN pip install --no-cache-dir hatchling
-RUN pip install --no-cache-dir .
+# RUN pip install --no-cache-dir .
 
 # Set environment variables for Twitter authentication
 # These should be provided at runtime for security purposes
